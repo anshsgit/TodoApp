@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     .formContainer form {
         display: flex;
         flex-direction: column;
