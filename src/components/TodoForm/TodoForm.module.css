@@ -1,0 +1,26 @@
+.formContainer {
+    margin: 50px 0;
+}
+
+.formContainer label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.formContainer input {
+    margin-right: 2px;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.input {
+    background-color: white;
+
+}
+
+.submit {
+    background-color: #F77778;
+    cursor: pointer;
+}
