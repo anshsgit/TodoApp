@@ -24,3 +24,12 @@
     background-color: #F77778;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 360px) {
+    .formContainer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
