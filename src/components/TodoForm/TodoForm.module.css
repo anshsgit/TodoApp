@@ -27,9 +27,6 @@
 
 @media only screen and (max-width: 400px) {
     .formContainer form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
+        width: 100%
     }
 }

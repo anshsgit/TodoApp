@@ -42,10 +42,23 @@
 
 .todoTask {
     cursor: pointer;
+    word-wrap: break-word; /* break long words */
+    overflow-wrap: break-word;
   }
   
   .todoTaskComp {
     opacity: 0.4;
     transition: opacity 0.5s linear;
     text-decoration: line-through;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .formContainer input {
+        padding: 15px 5px;
+    }
+
+    .list {
+        padding: 20px 10px;
+    }
+
   }
